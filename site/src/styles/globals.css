@@ -1,0 +1,34 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* body {
+  color: white;
+  background-color: lightcyan;
+} */
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: sans-serif;
+}
+
+.centerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 .75em 0 .75em;
+}
+
+.spaceDiv {
+  height: 1em
+}

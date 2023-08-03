@@ -1,0 +1,44 @@
+
+.inputFormContainer {
+  display: grid;
+  grid-template-rows: 2;
+  justify-items: center;
+}
+
+.infoLabel {
+  grid-column: 1;
+  grid-row: 1;
+
+  align-content: center;
+  font-size: large;
+}
+@media only screen and (max-width: 600px) {
+  .infoLabel {
+    font-size: medium;
+  }
+}
+
+.minMax {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: smaller;
+  color: gray;
+}
+
+.weightInput {
+  grid-column: 1;
+  grid-row: 3;
+  width: 30%;
+
+  background-color: #ddcccc;
+  border: 0;
+  padding: .75em;
+  border-radius: .5em;
+
+  text-align: center;
+}
+
+.weightInput:focus-visible {
+  outline: 1px solid #a09494;
+  box-shadow: inset 0 0 .75em #a09494;
+}

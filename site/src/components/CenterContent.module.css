@@ -1,0 +1,9 @@
+.contentDiv {
+  width: 60%
+}
+
+@media screen and (max-width: 600px) {
+  .contentDiv {
+    width: 100%
+  }
+}

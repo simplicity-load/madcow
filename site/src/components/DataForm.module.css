@@ -1,0 +1,44 @@
+.extraForms {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 1em;
+}
+
+.splitLine {
+  width: 60%;
+  height: 0px;
+  border: 2px solid black;
+  /* border-bottom: 2px solid black; */
+  border-radius: 50%;
+  /* border-radius: 1px; */
+  /* width: 99.5%;
+  height: 0px;
+  border: 2px solid #ffdddd; */
+}
+
+.submitButton {
+  background-color: #ccaaaa;
+  border: 0;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: .5em;
+  font-size: large;
+}
+
+.submitButton:hover {
+  background-color: #eebbbb;
+}
+
+.infoBar {
+  padding-top: .75em;
+  padding-bottom: .75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #cc8888;
+  border-radius: 5px;
+
+  color: #fff;
+  text-shadow: 0 0 .5em #fff;
+}

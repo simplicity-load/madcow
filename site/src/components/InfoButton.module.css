@@ -1,0 +1,32 @@
+.infoDiv {
+  width: 100%;
+  /* display: inline; */
+  transition: all .2s ease;
+  font-size: large;
+  padding: .25em;
+  border-radius: 15px;
+}
+
+/* infoIcon {
+  font-style: bold;
+} */
+
+/* This here doesnt work */
+.infoDiv:hover + .info {
+  display: block;
+}
+
+.infoDiv:hover {
+  background-color: white;
+  width: 315px;
+  text-align: left !important;
+}
+
+.info {
+  display: none;
+  line-height: 30px;
+  font-size: large;
+	position: absolute;
+  top: 0;
+  left: 50px;
+}

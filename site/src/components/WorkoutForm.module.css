@@ -1,0 +1,37 @@
+.workoutInputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  width: 100%;
+}
+.leftInput {
+  flex: 6;
+}
+.rightInput {
+  flex: 4;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerText {
+  margin-left: 1.5em;
+  font-size: xx-large;
+  /* @media screen and (max-width: 600px) { */
+  @media (max-width: 600px) {
+    font-size: x-large;
+  }
+}
+
+.inputDiv {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerDiv {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
