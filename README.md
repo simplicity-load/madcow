@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center"> 
-	<img src="./logo.png" width=300/>
+	<img src="./imgs/logo.png" width=300/>
 </p>
 <h1 align="center">
 Madcow Program
@@ -11,6 +11,14 @@ Madcow Program
 <p align="center">
 Generate a Madcow program in a matter of seconds.
 </p>
+
+## Screenshots
+
+<div>
+<img src="./imgs/main.png" width="30%" alt="Main Screen"/>
+<img src="./imgs/links.png" width="30%" alt="Links Screen" />
+<img src="./imgs/madcow.png"   width="30%" alt="Madcow Program"  />
+</div>
 
 ## Tech used
 

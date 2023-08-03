@@ -29,7 +29,7 @@ function Header() {
     <div className="centerDiv">
       <div>
         <h1 style={{textAlign: "center"}}>Madcow Program</h1>
-        Read this quickly before complaining that it didn't work
+        Read this quickly before complaining that it didn&apos;t work
         <ul>
           <li><b>Max Weight</b> - that you can lift for 5 reps with good form</li>
           <li><b>Increment</b> - by amount every week</li>
