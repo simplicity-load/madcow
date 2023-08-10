@@ -3,21 +3,21 @@
 	<img src="./imgs/logo.png" width=300/>
 </p>
 <h1 align="center">
-Madcow Program
+	Madcow Program
 </h1>
 </div>
 
 
 <p align="center">
-Generate a Madcow program in a matter of seconds.
+	Generate a Madcow program in a matter of seconds.
 </p>
 
 ## Screenshots
 
 <div>
-<img src="./imgs/main.png" width="30%" alt="Main Screen"/>
-<img src="./imgs/links.png" width="30%" alt="Links Screen" />
-<img src="./imgs/madcow.png"   width="30%" alt="Madcow Program"  />
+	<img src="./imgs/main.png" width="30%" alt="Main Screen"/>
+	<img src="./imgs/links.png" width="30%" alt="Links Screen" />
+	<img src="./imgs/madcow.png"   width="30%" alt="Madcow Program"  />
 </div>
 
 ## Tech used
@@ -54,15 +54,22 @@ If using nix run:
 nix-shell --pure
 ```
 
-which will get you a complete build/dev environment ready.
+which will get you a complete build/dev environment ready; you may need to `sudo` this command.
 
-To start the service:
+Then, to start the service:
 
 ```
+# build the environment
 cd site
+yarn
 yarn build
-#Copy the files from site/dist to server/static/public
-#Change dir into project's root
+
+# copy static files
+cd ..
+mkdir server/static
+cp -r site/dist server/static/public
+
+# run the host
 cd server
 go run .
 ```
@@ -70,9 +77,9 @@ go run .
 Access the site at localhost:8080 (port can be changed on main.go).
 
 <details>
-  <summary>&#9888;&#65039;<b>Important</b>&#9888;&#65039;</summary>
-  
-  Enjoy :)
+	<summary>&#9888;&#65039;<b>Important</b>&#9888;&#65039;</summary>
+	
+	Enjoy :)
 </details>
 
 ### Development
@@ -88,7 +95,7 @@ Make the changes visible on the server:
 
 ```
 yarn build
-#Copy the files from site/dist to server/static/public
+cp -r site/dist server/static/public
 ```
 
 ## Source
